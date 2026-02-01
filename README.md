@@ -1,18 +1,20 @@
-# Salesforce DX Project: Next Steps
+# WhatsApp Smart Reply Engine (Salesforce + AI)
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+## Overview
+This repository contains a Salesforce-based “Write For Me” feature for WhatsApp Lead conversations.
+The solution generates context-aware, professional WhatsApp replies using the complete conversation history, allowing agents to respond faster while retaining full control before sending.
 
-## How Do You Plan to Deploy Your Changes?
+## Key Features
+- Reads full inbound and outbound WhatsApp message history
+- Generates a ready-to-send reply based on conversation context
+- Agent can edit the suggested reply before sending
+- Secure callouts using Named Credentials
+- Built with Apex and Aura Components
+- Designed for production use and scalability
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+## Use Case
+Sales teams handling WhatsApp leads often spend time manually drafting replies.
+This feature reduces response time while ensuring consistent and professional communication.
 
-## Configure Your Salesforce DX Project
-
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
-
-## Read All About It
-
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+## Author
+Iqra Masood - Salesforce Administrator & Developer
