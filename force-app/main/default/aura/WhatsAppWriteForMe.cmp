@@ -1,0 +1,14 @@
+<aura:component controller="WhatsAppReplyController" access="global">
+    <aura:attribute name="leadId" type="Id"/>
+    <aura:attribute name="replyText" type="String"/>
+
+    <lightning:button
+        label="Write For Me"
+        onclick="{!c.generateReply}"
+        variant="brand"/>
+
+    <lightning:textarea
+        label="Suggested Reply"
+        value="{!v.replyText}"
+        rows="6"/>
+</aura:component>
