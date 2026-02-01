@@ -4,4 +4,5 @@ flowchart TD
     B --> C[Apex Controller]
     C --> D[Conversation Service]
     C --> E[AI Reply Service]
-    E --> F[External AI Provider via Named Credential]
+    E --> F[External AI Provider via
+               Named Credential]
